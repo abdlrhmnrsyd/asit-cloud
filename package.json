@@ -1,0 +1,14 @@
+{
+  "name": "asit-cloud",
+  "version": "1.0.0",
+  "description": "Asit Cloud — Modern personal cloud storage backed by Telegram storage and Firebase Firestore metadata",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:backend": "node backend/test-api.js"
+  },
+  "keywords": ["cloud-storage", "telegram-bot-api", "firebase-firestore", "react", "express"],
+  "author": "Asit Cloud Team",
+  "license": "ISC"
+}
